@@ -7,152 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A77E562B19C91B2800ED164C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E562A19C91B2800ED164C /* Foundation.framework */; };
-		A77E562D19C91B2800ED164C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E562C19C91B2800ED164C /* CoreGraphics.framework */; };
-		A77E562F19C91B2800ED164C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E562E19C91B2800ED164C /* UIKit.framework */; };
-		A77E563519C91B2800ED164C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77E563319C91B2800ED164C /* InfoPlist.strings */; };
-		A77E563719C91B2800ED164C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E563619C91B2800ED164C /* main.m */; };
-		A77E563B19C91B2800ED164C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E563A19C91B2800ED164C /* AppDelegate.m */; };
-		A77E563E19C91B2800ED164C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E563C19C91B2800ED164C /* Main.storyboard */; };
-		A77E564119C91B2800ED164C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E564019C91B2800ED164C /* FirstViewController.m */; };
-		A77E564419C91B2800ED164C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E564319C91B2800ED164C /* SecondViewController.m */; };
-		A77E564619C91B2800ED164C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77E564519C91B2800ED164C /* Images.xcassets */; };
-		A77E564D19C91B2800ED164C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E564C19C91B2800ED164C /* XCTest.framework */; };
-		A77E564E19C91B2800ED164C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E562A19C91B2800ED164C /* Foundation.framework */; };
-		A77E564F19C91B2800ED164C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E562E19C91B2800ED164C /* UIKit.framework */; };
-		A77E565719C91B2800ED164C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77E565519C91B2800ED164C /* InfoPlist.strings */; };
-		A77E565919C91B2800ED164C /* FanlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E565819C91B2800ED164C /* FanlowTests.m */; };
+		A76FA6D119D26AA90095E1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6D019D26AA90095E1A5 /* AppDelegate.swift */; };
+		A76FA6D319D26AA90095E1A5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6D219D26AA90095E1A5 /* MasterViewController.swift */; };
+		A76FA6D519D26AA90095E1A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6D419D26AA90095E1A5 /* DetailViewController.swift */; };
+		A76FA6D819D26AA90095E1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76FA6D619D26AA90095E1A5 /* Main.storyboard */; };
+		A76FA6DA19D26AA90095E1A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76FA6D919D26AA90095E1A5 /* Images.xcassets */; };
+		A76FA6DD19D26AA90095E1A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76FA6DB19D26AA90095E1A5 /* LaunchScreen.xib */; };
+		A76FA6E919D26AA90095E1A5 /* FanlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6E819D26AA90095E1A5 /* FanlowTests.swift */; };
+		A76FA6F319D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A77E565019C91B2800ED164C /* PBXContainerItemProxy */ = {
+		A76FA6E319D26AA90095E1A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A77E561F19C91B2800ED164C /* Project object */;
+			containerPortal = A76FA6C319D26AA90095E1A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A77E562619C91B2800ED164C;
+			remoteGlobalIDString = A76FA6CA19D26AA90095E1A5;
 			remoteInfo = Fanlow;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A77E562719C91B2800ED164C /* Fanlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77E562A19C91B2800ED164C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A77E562C19C91B2800ED164C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A77E562E19C91B2800ED164C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A77E563219C91B2800ED164C /* Fanlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fanlow-Info.plist"; sourceTree = "<group>"; };
-		A77E563419C91B2800ED164C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A77E563619C91B2800ED164C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A77E563819C91B2800ED164C /* Fanlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fanlow-Prefix.pch"; sourceTree = "<group>"; };
-		A77E563919C91B2800ED164C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A77E563A19C91B2800ED164C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A77E563D19C91B2800ED164C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A77E563F19C91B2800ED164C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A77E564019C91B2800ED164C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A77E564219C91B2800ED164C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A77E564319C91B2800ED164C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		A77E564519C91B2800ED164C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A77E564B19C91B2800ED164C /* FanlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77E564C19C91B2800ED164C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A77E565419C91B2800ED164C /* FanlowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FanlowTests-Info.plist"; sourceTree = "<group>"; };
-		A77E565619C91B2800ED164C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A77E565819C91B2800ED164C /* FanlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanlowTests.m; sourceTree = "<group>"; };
+		A76FA6CB19D26AA90095E1A5 /* Fanlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FA6CF19D26AA90095E1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76FA6D019D26AA90095E1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A76FA6D219D26AA90095E1A5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A76FA6D419D26AA90095E1A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A76FA6D719D26AA90095E1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A76FA6D919D26AA90095E1A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A76FA6DC19D26AA90095E1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A76FA6E219D26AA90095E1A5 /* FanlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FA6E719D26AA90095E1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76FA6E819D26AA90095E1A5 /* FanlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanlowTests.swift; sourceTree = "<group>"; };
+		A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanlowOfferCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A77E562419C91B2800ED164C /* Frameworks */ = {
+		A76FA6C819D26AA90095E1A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E562D19C91B2800ED164C /* CoreGraphics.framework in Frameworks */,
-				A77E562F19C91B2800ED164C /* UIKit.framework in Frameworks */,
-				A77E562B19C91B2800ED164C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A77E564819C91B2800ED164C /* Frameworks */ = {
+		A76FA6DF19D26AA90095E1A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E564D19C91B2800ED164C /* XCTest.framework in Frameworks */,
-				A77E564F19C91B2800ED164C /* UIKit.framework in Frameworks */,
-				A77E564E19C91B2800ED164C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A77E561E19C91B2800ED164C = {
+		A76FA6C219D26AA90095E1A5 = {
 			isa = PBXGroup;
 			children = (
-				A77E563019C91B2800ED164C /* Fanlow */,
-				A77E565219C91B2800ED164C /* FanlowTests */,
-				A77E562919C91B2800ED164C /* Frameworks */,
-				A77E562819C91B2800ED164C /* Products */,
+				A76FA6CD19D26AA90095E1A5 /* Fanlow */,
+				A76FA6E519D26AA90095E1A5 /* FanlowTests */,
+				A76FA6CC19D26AA90095E1A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A77E562819C91B2800ED164C /* Products */ = {
+		A76FA6CC19D26AA90095E1A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A77E562719C91B2800ED164C /* Fanlow.app */,
-				A77E564B19C91B2800ED164C /* FanlowTests.xctest */,
+				A76FA6CB19D26AA90095E1A5 /* Fanlow.app */,
+				A76FA6E219D26AA90095E1A5 /* FanlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A77E562919C91B2800ED164C /* Frameworks */ = {
+		A76FA6CD19D26AA90095E1A5 /* Fanlow */ = {
 			isa = PBXGroup;
 			children = (
-				A77E562A19C91B2800ED164C /* Foundation.framework */,
-				A77E562C19C91B2800ED164C /* CoreGraphics.framework */,
-				A77E562E19C91B2800ED164C /* UIKit.framework */,
-				A77E564C19C91B2800ED164C /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A77E563019C91B2800ED164C /* Fanlow */ = {
-			isa = PBXGroup;
-			children = (
-				A77E563919C91B2800ED164C /* AppDelegate.h */,
-				A77E563A19C91B2800ED164C /* AppDelegate.m */,
-				A77E563C19C91B2800ED164C /* Main.storyboard */,
-				A77E563F19C91B2800ED164C /* FirstViewController.h */,
-				A77E564019C91B2800ED164C /* FirstViewController.m */,
-				A77E564219C91B2800ED164C /* SecondViewController.h */,
-				A77E564319C91B2800ED164C /* SecondViewController.m */,
-				A77E564519C91B2800ED164C /* Images.xcassets */,
-				A77E563119C91B2800ED164C /* Supporting Files */,
+				A76FA6D019D26AA90095E1A5 /* AppDelegate.swift */,
+				A76FA6D219D26AA90095E1A5 /* MasterViewController.swift */,
+				A76FA6D419D26AA90095E1A5 /* DetailViewController.swift */,
+				A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */,
+				A76FA6D619D26AA90095E1A5 /* Main.storyboard */,
+				A76FA6D919D26AA90095E1A5 /* Images.xcassets */,
+				A76FA6DB19D26AA90095E1A5 /* LaunchScreen.xib */,
+				A76FA6CE19D26AA90095E1A5 /* Supporting Files */,
 			);
 			path = Fanlow;
 			sourceTree = "<group>";
 		};
-		A77E563119C91B2800ED164C /* Supporting Files */ = {
+		A76FA6CE19D26AA90095E1A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A77E563219C91B2800ED164C /* Fanlow-Info.plist */,
-				A77E563319C91B2800ED164C /* InfoPlist.strings */,
-				A77E563619C91B2800ED164C /* main.m */,
-				A77E563819C91B2800ED164C /* Fanlow-Prefix.pch */,
+				A76FA6CF19D26AA90095E1A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A77E565219C91B2800ED164C /* FanlowTests */ = {
+		A76FA6E519D26AA90095E1A5 /* FanlowTests */ = {
 			isa = PBXGroup;
 			children = (
-				A77E565819C91B2800ED164C /* FanlowTests.m */,
-				A77E565319C91B2800ED164C /* Supporting Files */,
+				A76FA6E819D26AA90095E1A5 /* FanlowTests.swift */,
+				A76FA6E619D26AA90095E1A5 /* Supporting Files */,
 			);
 			path = FanlowTests;
 			sourceTree = "<group>";
 		};
-		A77E565319C91B2800ED164C /* Supporting Files */ = {
+		A76FA6E619D26AA90095E1A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A77E565419C91B2800ED164C /* FanlowTests-Info.plist */,
-				A77E565519C91B2800ED164C /* InfoPlist.strings */,
+				A76FA6E719D26AA90095E1A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,13 +121,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A77E562619C91B2800ED164C /* Fanlow */ = {
+		A76FA6CA19D26AA90095E1A5 /* Fanlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A77E565C19C91B2800ED164C /* Build configuration list for PBXNativeTarget "Fanlow" */;
+			buildConfigurationList = A76FA6EC19D26AA90095E1A5 /* Build configuration list for PBXNativeTarget "Fanlow" */;
 			buildPhases = (
-				A77E562319C91B2800ED164C /* Sources */,
-				A77E562419C91B2800ED164C /* Frameworks */,
-				A77E562519C91B2800ED164C /* Resources */,
+				A76FA6C719D26AA90095E1A5 /* Sources */,
+				A76FA6C819D26AA90095E1A5 /* Frameworks */,
+				A76FA6C919D26AA90095E1A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,42 +135,46 @@
 			);
 			name = Fanlow;
 			productName = Fanlow;
-			productReference = A77E562719C91B2800ED164C /* Fanlow.app */;
+			productReference = A76FA6CB19D26AA90095E1A5 /* Fanlow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A77E564A19C91B2800ED164C /* FanlowTests */ = {
+		A76FA6E119D26AA90095E1A5 /* FanlowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A77E565F19C91B2800ED164C /* Build configuration list for PBXNativeTarget "FanlowTests" */;
+			buildConfigurationList = A76FA6EF19D26AA90095E1A5 /* Build configuration list for PBXNativeTarget "FanlowTests" */;
 			buildPhases = (
-				A77E564719C91B2800ED164C /* Sources */,
-				A77E564819C91B2800ED164C /* Frameworks */,
-				A77E564919C91B2800ED164C /* Resources */,
+				A76FA6DE19D26AA90095E1A5 /* Sources */,
+				A76FA6DF19D26AA90095E1A5 /* Frameworks */,
+				A76FA6E019D26AA90095E1A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A77E565119C91B2800ED164C /* PBXTargetDependency */,
+				A76FA6E419D26AA90095E1A5 /* PBXTargetDependency */,
 			);
 			name = FanlowTests;
 			productName = FanlowTests;
-			productReference = A77E564B19C91B2800ED164C /* FanlowTests.xctest */;
+			productReference = A76FA6E219D26AA90095E1A5 /* FanlowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A77E561F19C91B2800ED164C /* Project object */ = {
+		A76FA6C319D26AA90095E1A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Fanlow;
 				TargetAttributes = {
-					A77E564A19C91B2800ED164C = {
-						TestTargetID = A77E562619C91B2800ED164C;
+					A76FA6CA19D26AA90095E1A5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A76FA6E119D26AA90095E1A5 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A76FA6CA19D26AA90095E1A5;
 					};
 				};
 			};
-			buildConfigurationList = A77E562219C91B2800ED164C /* Build configuration list for PBXProject "Fanlow" */;
+			buildConfigurationList = A76FA6C619D26AA90095E1A5 /* Build configuration list for PBXProject "Fanlow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,97 +182,88 @@
 				en,
 				Base,
 			);
-			mainGroup = A77E561E19C91B2800ED164C;
-			productRefGroup = A77E562819C91B2800ED164C /* Products */;
+			mainGroup = A76FA6C219D26AA90095E1A5;
+			productRefGroup = A76FA6CC19D26AA90095E1A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A77E562619C91B2800ED164C /* Fanlow */,
-				A77E564A19C91B2800ED164C /* FanlowTests */,
+				A76FA6CA19D26AA90095E1A5 /* Fanlow */,
+				A76FA6E119D26AA90095E1A5 /* FanlowTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A77E562519C91B2800ED164C /* Resources */ = {
+		A76FA6C919D26AA90095E1A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E564619C91B2800ED164C /* Images.xcassets in Resources */,
-				A77E563519C91B2800ED164C /* InfoPlist.strings in Resources */,
-				A77E563E19C91B2800ED164C /* Main.storyboard in Resources */,
+				A76FA6D819D26AA90095E1A5 /* Main.storyboard in Resources */,
+				A76FA6DD19D26AA90095E1A5 /* LaunchScreen.xib in Resources */,
+				A76FA6DA19D26AA90095E1A5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A77E564919C91B2800ED164C /* Resources */ = {
+		A76FA6E019D26AA90095E1A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E565719C91B2800ED164C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A77E562319C91B2800ED164C /* Sources */ = {
+		A76FA6C719D26AA90095E1A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E564419C91B2800ED164C /* SecondViewController.m in Sources */,
-				A77E563B19C91B2800ED164C /* AppDelegate.m in Sources */,
-				A77E564119C91B2800ED164C /* FirstViewController.m in Sources */,
-				A77E563719C91B2800ED164C /* main.m in Sources */,
+				A76FA6D519D26AA90095E1A5 /* DetailViewController.swift in Sources */,
+				A76FA6D319D26AA90095E1A5 /* MasterViewController.swift in Sources */,
+				A76FA6F319D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift in Sources */,
+				A76FA6D119D26AA90095E1A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A77E564719C91B2800ED164C /* Sources */ = {
+		A76FA6DE19D26AA90095E1A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E565919C91B2800ED164C /* FanlowTests.m in Sources */,
+				A76FA6E919D26AA90095E1A5 /* FanlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A77E565119C91B2800ED164C /* PBXTargetDependency */ = {
+		A76FA6E419D26AA90095E1A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A77E562619C91B2800ED164C /* Fanlow */;
-			targetProxy = A77E565019C91B2800ED164C /* PBXContainerItemProxy */;
+			target = A76FA6CA19D26AA90095E1A5 /* Fanlow */;
+			targetProxy = A76FA6E319D26AA90095E1A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A77E563319C91B2800ED164C /* InfoPlist.strings */ = {
+		A76FA6D619D26AA90095E1A5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A77E563419C91B2800ED164C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A77E563C19C91B2800ED164C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A77E563D19C91B2800ED164C /* Base */,
+				A76FA6D719D26AA90095E1A5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A77E565519C91B2800ED164C /* InfoPlist.strings */ = {
+		A76FA6DB19D26AA90095E1A5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A77E565619C91B2800ED164C /* en */,
+				A76FA6DC19D26AA90095E1A5 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A77E565A19C91B2800ED164C /* Debug */ = {
+		A76FA6EA19D26AA90095E1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,9 +278,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rich Tanner (58Z6Z76UAN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -339,13 +297,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A77E565B19C91B2800ED164C /* Release */ = {
+		A76FA6EB19D26AA90095E1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,10 +320,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -371,107 +333,98 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A77E565D19C91B2800ED164C /* Debug */ = {
+		A76FA6ED19D26AA90095E1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fanlow/Fanlow-Prefix.pch";
-				INFOPLIST_FILE = "Fanlow/Fanlow-Info.plist";
+				INFOPLIST_FILE = Fanlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		A77E565E19C91B2800ED164C /* Release */ = {
+		A76FA6EE19D26AA90095E1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fanlow/Fanlow-Prefix.pch";
-				INFOPLIST_FILE = "Fanlow/Fanlow-Info.plist";
+				INFOPLIST_FILE = Fanlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		A77E566019C91B2800ED164C /* Debug */ = {
+		A76FA6F019D26AA90095E1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fanlow.app/Fanlow";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fanlow/Fanlow-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FanlowTests/FanlowTests-Info.plist";
+				INFOPLIST_FILE = FanlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanlow.app/Fanlow";
 			};
 			name = Debug;
 		};
-		A77E566119C91B2800ED164C /* Release */ = {
+		A76FA6F119D26AA90095E1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fanlow.app/Fanlow";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fanlow/Fanlow-Prefix.pch";
-				INFOPLIST_FILE = "FanlowTests/FanlowTests-Info.plist";
+				INFOPLIST_FILE = FanlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanlow.app/Fanlow";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A77E562219C91B2800ED164C /* Build configuration list for PBXProject "Fanlow" */ = {
+		A76FA6C619D26AA90095E1A5 /* Build configuration list for PBXProject "Fanlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A77E565A19C91B2800ED164C /* Debug */,
-				A77E565B19C91B2800ED164C /* Release */,
+				A76FA6EA19D26AA90095E1A5 /* Debug */,
+				A76FA6EB19D26AA90095E1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A77E565C19C91B2800ED164C /* Build configuration list for PBXNativeTarget "Fanlow" */ = {
+		A76FA6EC19D26AA90095E1A5 /* Build configuration list for PBXNativeTarget "Fanlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A77E565D19C91B2800ED164C /* Debug */,
-				A77E565E19C91B2800ED164C /* Release */,
+				A76FA6ED19D26AA90095E1A5 /* Debug */,
+				A76FA6EE19D26AA90095E1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A77E565F19C91B2800ED164C /* Build configuration list for PBXNativeTarget "FanlowTests" */ = {
+		A76FA6EF19D26AA90095E1A5 /* Build configuration list for PBXNativeTarget "FanlowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A77E566019C91B2800ED164C /* Debug */,
-				A77E566119C91B2800ED164C /* Release */,
+				A76FA6F019D26AA90095E1A5 /* Debug */,
+				A76FA6F119D26AA90095E1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A77E561F19C91B2800ED164C /* Project object */;
+	rootObject = A76FA6C319D26AA90095E1A5 /* Project object */;
 }

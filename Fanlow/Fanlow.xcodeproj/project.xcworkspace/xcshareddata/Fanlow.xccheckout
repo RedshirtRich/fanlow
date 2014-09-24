@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AE237D73-D29A-4424-8361-8247D0DB0EA3</string>
+	<string>4596CA14-68AD-4F8A-832A-2F6654D029A9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Fanlow</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0489CEBE-CF51-467B-996C-9D0F85F2D74B</key>
+		<key>CA31E0079EAC8B785A056F5DCE046DB8AD9FAF51</key>
 		<string>https://github.com/RedshirtRich/fanlow.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Fanlow/Fanlow.xcodeproj/project.xcworkspace</string>
+	<string>Fanlow/Fanlow.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0489CEBE-CF51-467B-996C-9D0F85F2D74B</key>
+		<key>CA31E0079EAC8B785A056F5DCE046DB8AD9FAF51</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/RedshirtRich/fanlow.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0489CEBE-CF51-467B-996C-9D0F85F2D74B</string>
+	<string>CA31E0079EAC8B785A056F5DCE046DB8AD9FAF51</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0489CEBE-CF51-467B-996C-9D0F85F2D74B</string>
+			<string>CA31E0079EAC8B785A056F5DCE046DB8AD9FAF51</string>
 			<key>IDESourceControlWCCName</key>
 			<string>fanlow</string>
 		</dict>

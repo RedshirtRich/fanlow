@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A77E562619C91B2800ED164C"
+               BlueprintIdentifier = "A76FA6CA19D26AA90095E1A5"
                BuildableName = "Fanlow.app"
                BlueprintName = "Fanlow"
+               ReferencedContainer = "container:Fanlow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A76FA6E119D26AA90095E1A5"
+               BuildableName = "FanlowTests.xctest"
+               BlueprintName = "FanlowTests"
                ReferencedContainer = "container:Fanlow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A77E564A19C91B2800ED164C"
+               BlueprintIdentifier = "A76FA6E119D26AA90095E1A5"
                BuildableName = "FanlowTests.xctest"
                BlueprintName = "FanlowTests"
                ReferencedContainer = "container:Fanlow.xcodeproj">
@@ -42,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A77E562619C91B2800ED164C"
+            BlueprintIdentifier = "A76FA6CA19D26AA90095E1A5"
             BuildableName = "Fanlow.app"
             BlueprintName = "Fanlow"
             ReferencedContainer = "container:Fanlow.xcodeproj">
@@ -61,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A77E562619C91B2800ED164C"
+            BlueprintIdentifier = "A76FA6CA19D26AA90095E1A5"
             BuildableName = "Fanlow.app"
             BlueprintName = "Fanlow"
             ReferencedContainer = "container:Fanlow.xcodeproj">
@@ -79,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A77E562619C91B2800ED164C"
+            BlueprintIdentifier = "A76FA6CA19D26AA90095E1A5"
             BuildableName = "Fanlow.app"
             BlueprintName = "Fanlow"
             ReferencedContainer = "container:Fanlow.xcodeproj">
