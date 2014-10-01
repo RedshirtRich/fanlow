@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-148" y="64"/>
         </scene>
-        <!--Detail-->
+        <!--Dan's House of Gravy-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
-                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="DetailViewController" customModule="Fanlow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Dan's House of Gravy" id="Ah7-4n-0Wa" customClass="DetailViewController" customModule="Fanlow" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIm-e0-J51"/>
                         <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
@@ -31,22 +31,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-5M-9Gs">
-                                <rect key="frame" x="20" y="260" width="560" height="17"/>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="You should get in on this awesome deal, like all your friends did!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-5M-9Gs">
+                                <rect key="frame" x="20" y="252" width="560" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lei-5M-9Gs" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" symbolic="YES" id="62x-JV-TTJ"/>
-                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="centerY" secondItem="MMQ-IT-qOo" secondAttribute="centerY" id="JzS-HC-Rnl"/>
+                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="centerY" secondItem="MMQ-IT-qOo" secondAttribute="centerY" constant="-68" id="JzS-HC-Rnl"/>
+                            <constraint firstAttribute="centerY" secondItem="Lei-5M-9Gs" secondAttribute="centerY" id="acW-Oh-JX8"/>
+                            <constraint firstAttribute="centerX" secondItem="Lei-5M-9Gs" secondAttribute="centerX" id="cLB-ou-gc6"/>
                             <constraint firstAttribute="trailing" secondItem="Lei-5M-9Gs" secondAttribute="trailing" constant="20" symbolic="YES" id="pXB-RP-Zz6"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="JzS-HC-Rnl"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="Dan's House of Gravy" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="Lei-5M-9Gs" id="sCT-F7-F6f"/>
                     </connections>
@@ -62,9 +69,9 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Gza-qO-UAH">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.1333333333" green="0.5450980392" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bgr-1g-I6i">
-                            <size key="itemSize" width="269" height="200"/>
+                        <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="10" id="Bgr-1g-I6i">
+                            <size key="itemSize" width="269" height="380"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
@@ -74,21 +81,114 @@
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="269" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="269" height="380"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sD-ic-w5e">
-                                            <rect key="frame" x="0.0" y="70" width="250" height="60"/>
-                                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foodOffer.png" translatesAutoresizingMaskIntoConstraints="NO" id="pMo-cW-e86">
+                                            <rect key="frame" x="0.0" y="0.0" width="269" height="200"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Save up to 75% off your next tasty family dinner!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2sD-ic-w5e">
+                                            <rect key="frame" x="10" y="205" width="249" height="60"/>
+                                            <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                            <color key="textColor" red="0.0" green="0.30618538533834583" blue="0.69874882518796988" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dan's House of Gravy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e2X-0L-M5s">
+                                            <rect key="frame" x="10" y="265" width="249" height="30"/>
+                                            <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plano, TX" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZyU-tH-MCf">
+                                            <rect key="frame" x="10" y="295" width="125" height="26"/>
+                                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCM-2J-EZ2">
+                                            <rect key="frame" x="135" y="295" width="125" height="26"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="$99">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                                        <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                        <integer key="NSStrikethrough" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content=" ">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.20015859962406016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                                        <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content=" ">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.20015859962406016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="16" name="Noteworthy-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="$2">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.20015859962406016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="18" name="Noteworthy-Bold"/>
+                                                        <font key="NSOriginalFont" size="18" name="Noteworthy-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="5">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.20015859962406016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="18" name="Noteworthy-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gpn-qE-K8F">
+                                            <rect key="frame" x="0.0" y="330" width="269" height="50"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userOne.png" translatesAutoresizingMaskIntoConstraints="NO" id="4iN-Nd-QGZ">
+                                                    <rect key="frame" x="5" y="5" width="40" height="40"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userFour.png" translatesAutoresizingMaskIntoConstraints="NO" id="C8E-z0-qJ8">
+                                                    <rect key="frame" x="55" y="5" width="40" height="40"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userThree.png" translatesAutoresizingMaskIntoConstraints="NO" id="MY5-6w-Z3i">
+                                                    <rect key="frame" x="105" y="5" width="40" height="40"/>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HfL-4z-q0l">
+                                                    <rect key="frame" x="155" y="5" width="40" height="40"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRh-hi-u2p">
+                                                            <rect key="frame" x="1" y="1" width="38" height="38"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="AaJ-v2-7mc">
+                                                    <rect key="frame" x="224" y="5" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <outlet property="dateLabel" destination="2sD-ic-w5e" id="kgC-DN-IYX"/>
+                                    <outlet property="moreView" destination="HfL-4z-q0l" id="i9x-jZ-oWg"/>
+                                    <outlet property="userOne" destination="4iN-Nd-QGZ" id="Gwv-Cu-vNd"/>
+                                    <outlet property="userThree" destination="MY5-6w-Z3i" id="SJr-uT-wih"/>
+                                    <outlet property="userTwo" destination="C8E-z0-qJ8" id="ECx-y1-sIE"/>
                                     <segue destination="Ah7-4n-0Wa" kind="show" identifier="showOfferDetail" id="4gs-K3-4eO"/>
                                 </connections>
                             </collectionViewCell>
@@ -105,4 +205,11 @@
             <point key="canvasLocation" x="598" y="40"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="foodOffer.png" width="640" height="412"/>
+        <image name="heart.png" width="120" height="120"/>
+        <image name="userFour.png" width="120" height="120"/>
+        <image name="userOne.png" width="120" height="120"/>
+        <image name="userThree.png" width="120" height="120"/>
+    </resources>
 </document>

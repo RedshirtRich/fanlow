@@ -15,6 +15,12 @@
 		A76FA6DD19D26AA90095E1A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76FA6DB19D26AA90095E1A5 /* LaunchScreen.xib */; };
 		A76FA6E919D26AA90095E1A5 /* FanlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6E819D26AA90095E1A5 /* FanlowTests.swift */; };
 		A76FA6F319D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */; };
+		A7D9135E19DB97FB00349CD6 /* foodOffer.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9135D19DB97FB00349CD6 /* foodOffer.png */; };
+		A7D9136319DB9DCB00349CD6 /* userFour.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9135F19DB9DCB00349CD6 /* userFour.png */; };
+		A7D9136419DB9DCB00349CD6 /* userOne.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9136019DB9DCB00349CD6 /* userOne.png */; };
+		A7D9136519DB9DCB00349CD6 /* userThree.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9136119DB9DCB00349CD6 /* userThree.png */; };
+		A7D9136619DB9DCB00349CD6 /* userTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9136219DB9DCB00349CD6 /* userTwo.png */; };
+		A7D9136819DB9EF400349CD6 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D9136719DB9EF400349CD6 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		A76FA6E719D26AA90095E1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76FA6E819D26AA90095E1A5 /* FanlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanlowTests.swift; sourceTree = "<group>"; };
 		A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanlowOfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7D9135D19DB97FB00349CD6 /* foodOffer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodOffer.png; sourceTree = "<group>"; };
+		A7D9135F19DB9DCB00349CD6 /* userFour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userFour.png; sourceTree = "<group>"; };
+		A7D9136019DB9DCB00349CD6 /* userOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userOne.png; sourceTree = "<group>"; };
+		A7D9136119DB9DCB00349CD6 /* userThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userThree.png; sourceTree = "<group>"; };
+		A7D9136219DB9DCB00349CD6 /* userTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userTwo.png; sourceTree = "<group>"; };
+		A7D9136719DB9EF400349CD6 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,12 @@
 				A76FA6D419D26AA90095E1A5 /* DetailViewController.swift */,
 				A76FA6F219D2780E0095E1A5 /* FanlowOfferCollectionViewCell.swift */,
 				A76FA6D619D26AA90095E1A5 /* Main.storyboard */,
+				A7D9135D19DB97FB00349CD6 /* foodOffer.png */,
+				A7D9135F19DB9DCB00349CD6 /* userFour.png */,
+				A7D9136019DB9DCB00349CD6 /* userOne.png */,
+				A7D9136119DB9DCB00349CD6 /* userThree.png */,
+				A7D9136219DB9DCB00349CD6 /* userTwo.png */,
+				A7D9136719DB9EF400349CD6 /* heart.png */,
 				A76FA6D919D26AA90095E1A5 /* Images.xcassets */,
 				A76FA6DB19D26AA90095E1A5 /* LaunchScreen.xib */,
 				A76FA6CE19D26AA90095E1A5 /* Supporting Files */,
@@ -198,9 +216,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D9136319DB9DCB00349CD6 /* userFour.png in Resources */,
+				A7D9136819DB9EF400349CD6 /* heart.png in Resources */,
 				A76FA6D819D26AA90095E1A5 /* Main.storyboard in Resources */,
 				A76FA6DD19D26AA90095E1A5 /* LaunchScreen.xib in Resources */,
+				A7D9136419DB9DCB00349CD6 /* userOne.png in Resources */,
+				A7D9135E19DB97FB00349CD6 /* foodOffer.png in Resources */,
 				A76FA6DA19D26AA90095E1A5 /* Images.xcassets in Resources */,
+				A7D9136519DB9DCB00349CD6 /* userThree.png in Resources */,
+				A7D9136619DB9DCB00349CD6 /* userTwo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +372,7 @@
 				INFOPLIST_FILE = Fanlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,6 +384,7 @@
 				INFOPLIST_FILE = Fanlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -415,6 +441,7 @@
 				A76FA6EE19D26AA90095E1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A76FA6EF19D26AA90095E1A5 /* Build configuration list for PBXNativeTarget "FanlowTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +450,7 @@
 				A76FA6F119D26AA90095E1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

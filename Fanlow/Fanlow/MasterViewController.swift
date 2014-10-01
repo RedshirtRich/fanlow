@@ -24,8 +24,8 @@ class MasterViewController: UICollectionViewController {
         var owlHeader = UIImage(named: "owlHeader")
         navigationItem.titleView = UIImageView(image: owlHeader)
         
-        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
-        self.navigationItem.rightBarButtonItem = addButton
+//        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
+//        self.navigationItem.rightBarButtonItem = addButton
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,8 +44,8 @@ class MasterViewController: UICollectionViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showOfferDetail" {
             if selectedIndex != -1 {
-                let object = objects[selectedIndex] as NSDate
-                (segue.destinationViewController as DetailViewController).detailItem = object
+//                let object = objects[selectedIndex] as NSDate
+//                (segue.destinationViewController as DetailViewController).detailItem = object
             }
         }
     }
@@ -57,14 +57,25 @@ class MasterViewController: UICollectionViewController {
     }
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return objects.count
+        return 5
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as FanlowOfferCollectionViewCell
-            
-        let object = objects[indexPath.row] as NSDate
-        cell.dateLabel?.text = object.description
+        
+
+        cell.layer.masksToBounds = false
+        cell.layer.shadowColor = UIColor.blackColor().CGColor
+        cell.layer.shadowRadius = 2
+        cell.layer.shadowOpacity = 0.5
+        cell.layer.shadowOffset = CGSizeMake(0, 1)
+        
+        
+        
+        
+        cell.configureCellForOffer()
+//        let object = objects[indexPath.row] as NSDate
+//        cell.dateLabel?.text = object.description
         return cell
     }
     
